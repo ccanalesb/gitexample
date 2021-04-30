@@ -9,10 +9,24 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1> Hola! bootcamp</h1>
-        <h2> H2 text </h2>   
-        <h6> h6 text </h6>
-        <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> Bootcamp</a>
+                    <a class="navbar-brand" href="https://bootcamp.leniolabs.com/"> See the documentation </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Hi! bootcamp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login here</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
             <p>
                 <h3>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -21,40 +35,55 @@
 
             <p>
                 <h2>
-                You can go to
-                <a href="https://www.lipsum.com/"> Go to Lorem Ipsum</a>
-                if you click that link
+                    You can go to
+                    <a href="https://www.lipsum.com/"> Go to Lorem Ipsum</a>
+                    if you click that link
                 <h2>
+                <p>
+                    The CSS <code>background-color</code> property defines the background color of an element.
+                </p>
             </p>
 
-            <p>
+            <figure>
                 <img
 
                     alt="This is a image about lorem Ipsum text"
                     src="images/black_970x90.gif"
                 />
-            </p>
-        
-            <table class="table table-striped">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Firstname</th>
-                <th scope="col">Lastname</th>
-                <th scope="col">Age</th>
-            </tr>
-            <tr>
-                <th scope="row">1</th>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-            </tr>
-            </table>
-        </div>
+                <figcaption>This is a image of lorem ipsum</figcaption>
+            </figure>
+            <section>
+                <table class="table table-striped">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Firstname</th>
+                    <th scope="col">Lastname</th>
+                    <th scope="col">Age</th>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                </table>
+            </section>
+        </main>
+        <footer class="container">
+            <div class="row align-items-center">
+                <section class="col alert alert-primary">
+                    This is the first part
+                </section>
+                <section class="col alert alert-info">
+                    This is the second part
+                </section>
+            </div>
+        </footer>
     </body>
 </html>
